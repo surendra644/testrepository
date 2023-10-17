@@ -17,7 +17,6 @@ public class woodcuttingproblem {
     {
         int l=0;
         int h=0;
-        int ans=0;
              for(int i=0;i<arr.length;i++)
              {
                   if(arr[i]>h)
@@ -44,7 +43,7 @@ public class woodcuttingproblem {
                     h=mid;
                 }
              }
-            return  ans;         
+            return  -1;         
             
       }
     public static void main(String[] args) 
